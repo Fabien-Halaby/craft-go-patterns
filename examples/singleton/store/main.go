@@ -44,5 +44,5 @@ func main() {
 	})
 
 	final := s.GetState()
-	fmt.Printf("THEME: %s", final.Theme)
+	fmt.Printf("THEME: %s\n", final.Theme)
 }

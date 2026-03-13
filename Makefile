@@ -15,6 +15,9 @@ run-store:
 run-config:
 	cd examples/singleton/config && go run main.go
 
+run-log:
+	cd examples/singleton/log && go run main.go
+
 clean:
 	go clean -cache
 
